@@ -1,0 +1,31 @@
+.displayCat
+    padding-bottom: 50px
+.voteImg
+    border-radius: 2%
+    object-fit: cover
+    height: 350px
+    width: 350px
+
+    
+.catCard
+    margin-top: 25px
+    margin-bottom: 25px
+    text-align: center
+    img
+        border-radius: 2%
+        object-fit: cover
+        width: 400px
+        height: 400px
+        transition: all 0.7s ease
+        &:hover
+            transform: translate(0, 15px)
+            
+        &:active
+            transform: scale(0.9)
+    
+
+@media (max-width: 500px)
+  .catCard
+      img
+          height: 250px
+          width: 250px
