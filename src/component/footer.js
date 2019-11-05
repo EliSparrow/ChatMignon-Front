@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 import '../sass/footer.sass'
 
 export class Footer extends Component {
-    constructor(props){
-        super(props);
-    }
-
     render(){
         return (
             <footer>

@@ -52,11 +52,9 @@ export class Vote extends Component {
     vote = async (cat) => {
         await this.state.currentCats.map(element => {
             if(element.id === cat.id){
-                axios.put('https://api-catmash.herokuapp.com/cats/' + element._id, {score: element.score+1})
-                console.log(element._id,element.score+1);
+                axios.put('https://api-catmash.herokuapp.com/cats/' + element._id, {score: element.score+1})            
             } else {
                 axios.put('https://api-catmash.herokuapp.com/cats/' + element._id, {score: element.score-1})
-                console.log(element._id,element.score-1);
             }
         });
         

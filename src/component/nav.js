@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 import '../sass/nav.sass'
 
 export class Nav extends Component {
-    constructor(props){
-        super(props);
-    }
-
     render(){
         return (
             <nav>

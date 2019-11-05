@@ -14,7 +14,6 @@ export class ListCats extends Component {
     componentDidMount() {
         axios.get('https://api-catmash.herokuapp.com/cats')
         .then(res => {
-            console.log(res.data)
             this.setState({cats: res.data})
         })
         .catch(err => {
