@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import '../sass/catList.sass';
-import { Link } from 'react-router-dom';
 
 export class ListCats extends Component {
     constructor(props){
@@ -14,7 +13,6 @@ export class ListCats extends Component {
     componentDidMount() {
         axios.get('https://api-catmash.herokuapp.com/cats')
         .then(res => {
-            console.log(res.data)
             this.setState({cats: res.data})
         })
         .catch(err => {
