@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import '../sass/catList.sass';
-import { Link } from 'react-router-dom';
 
 export class ListCats extends Component {
     constructor(props){
