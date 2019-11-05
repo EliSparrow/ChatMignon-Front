@@ -1,8 +1,8 @@
 # Catmash
-### Micro API pour Catmash de l'Atelier
+### Micro site pour Catmash de l'Atelier
 
 Version live :
-[Catmash](https://meetmeal.netlify.com/)
+[Catmash](https://catmash2.netlify.com/)
 
 Lien live de l'API :
 [Catmash-API](https://api-catmash.herokuapp.com/)
