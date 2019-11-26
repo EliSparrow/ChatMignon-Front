@@ -79,6 +79,7 @@ export class Vote extends Component {
     render(){
         return (
             <div className="container">
+                <h2>Clique sur un chat pour voter.</h2>
                 <div className="row displayCat">
                 { this.displayCats() }
                 </div>
