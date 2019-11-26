@@ -19,7 +19,7 @@ export class Vote extends Component {
     selectRandomCat = async (array) => {
         const min = 0; 
         let max = array.length;  
-        const random = Math.floor(Math.random() * (+max - +min)) + +min;
+        const random = Math.floor(Math.random() * (max - min)) + min;
         const cat = this.state.catsArray[random];
         await this.state.catsArray.splice(random, 1)
         return cat
