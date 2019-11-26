@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import '../sass/footer.sass'
 
 export class Footer extends Component {
@@ -13,13 +12,13 @@ export class Footer extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 footerItem">
-                            made for <Link to="https://www.latelier.co/">L'Atelier</Link>
+                            made for <a href="https://www.latelier.co/">L'Atelier</a>
                         </div>
                         <div className="col-lg-4 footerItem">
-                            made by <Link to="http://github.com/eliSparow">Max</Link>
+                            made by <a href="http://github.com/eliSparow">Max</a>
                         </div>
                         <div className="col-lg-4 footerItem">
-                            github repository : <Link to="http://github.com/eliSparow/ChatMignon-Front">Catmash</Link>
+                            github repository : <a href="http://github.com/eliSparow/ChatMignon-Front">Catmash</a>
                         </div>
                     </div> 
                 </div>
